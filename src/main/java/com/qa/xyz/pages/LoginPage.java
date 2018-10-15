@@ -35,6 +35,7 @@ public class LoginPage extends TestBase{
 		username.sendKeys(userName);
 		password.sendKeys(pwd);
 		loginBtn.click();
+		System.out.println("login done");
 		return new HomePage(driver);
 	}
 	
