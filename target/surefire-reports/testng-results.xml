@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hub Spot Test Automation Test Suite" duration-ms="21686" started-at="2018-10-15T16:38:10Z" finished-at="2018-10-15T16:38:31Z">
+    <groups>
+    </groups>
+    <test name="Hub Spot App Test Cases" duration-ms="21686" started-at="2018-10-15T16:38:10Z" finished-at="2018-10-15T16:38:31Z">
+      <class name="com.qa.xyz.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.xyz.tests.HomePageTest@32709393]" name="setUp" is-config="true" duration-ms="5411" started-at="2018-10-15T16:38:10Z" finished-at="2018-10-15T16:38:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.qa.xyz.tests.HomePageTest@32709393]" name="verifyHomePageTitleTest" duration-ms="4647" started-at="2018-10-15T16:38:15Z" finished-at="2018-10-15T16:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.xyz.tests.HomePageTest@32709393]" name="tearDown" is-config="true" duration-ms="96" started-at="2018-10-15T16:38:20Z" finished-at="2018-10-15T16:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.xyz.tests.HomePageTest@32709393]" name="setUp" is-config="true" duration-ms="5478" started-at="2018-10-15T16:38:20Z" finished-at="2018-10-15T16:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:0, instance:com.qa.xyz.tests.HomePageTest@32709393]" name="verifyLoggedInUserTest" duration-ms="5934" started-at="2018-10-15T16:38:25Z" finished-at="2018-10-15T16:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.xyz.tests.HomePageTest@32709393]" name="tearDown" is-config="true" duration-ms="98" started-at="2018-10-15T16:38:31Z" finished-at="2018-10-15T16:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.xyz.tests.HomePageTest -->
+    </test> <!-- Hub Spot App Test Cases -->
+  </suite> <!-- Hub Spot Test Automation Test Suite -->
+</testng-results>
