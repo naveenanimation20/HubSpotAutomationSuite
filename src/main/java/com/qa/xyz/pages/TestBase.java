@@ -26,6 +26,7 @@ public class TestBase {
 	public WebDriver init_driver(){
 		System.setProperty("webdriver.chrome.driver", "/Users/NaveenKhunteta/Downloads/chromedriver");
 		driver = new ChromeDriver();
+		System.out.println("chrome broswer is launching");
 		driver.manage().timeouts().pageLoadTimeout(Constants.PAGE_LOAD_TIME_OUT, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().fullscreen();

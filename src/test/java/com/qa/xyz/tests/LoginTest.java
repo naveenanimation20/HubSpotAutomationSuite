@@ -33,6 +33,7 @@ public class LoginTest {
 	
 	@Test(priority=1)
 	public void VerifyLoginPageTitleTest(){
+		System.out.println("======= Starting VerifyLoginPageTitleTest ========");
 		String title = loginPage.getLoginPageTitle();
 		System.out.println("login page title is: "+ title);
 		Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE, "login title is not matched");
