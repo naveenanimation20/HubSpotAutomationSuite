@@ -15,6 +15,13 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "//h1[text()='Sales Dashboard']")
 	WebElement homePageHeader;
 	
+	@FindBy(id = "nav-primary-contacts-branch")
+	WebElement contactsTabLink;
+	
+	@FindBy(id = "nav-secondary-contacts")
+	WebElement contactsLink;
+	
+	
 //	@FindBy(xpath = "//a[@id='accountMenu']/span[contains(@class,'account-name')]")
 //	By accountName;
 	
@@ -42,6 +49,21 @@ public class HomePage extends TestBase{
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.presenceOfElementLocated(accountName));
 		return driver.findElement(accountName).getText();
+	}
+	
+	public void clickContacts(){
+		WebDriverWait wait = new WebDriverWait(driver, 15);
+		wait.until(ExpectedConditions.visibilityOf(contactsTabLink));
+		contactsTabLink.click();
+		
+		wait.until(ExpectedConditions.visibilityOf(contactsLink));
+		contactsLink.click();
+		
+	}
+	
+	public ContactsPage goToContactsPage(){
+		clickContacts();
+		return new ContactsPage(driver);
 	}
 	
 
